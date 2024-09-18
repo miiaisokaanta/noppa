@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+div#container {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    padding-top: 30%;
+    background: none;
+    cursor: pointer;
+}
+
+/* CSS for the dice image inside the button */
+#imageButton img {
+    width: 500px;
+    height: auto;
+}
